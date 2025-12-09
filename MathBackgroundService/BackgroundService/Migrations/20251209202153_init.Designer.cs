@@ -11,8 +11,8 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace BackgroundServiceMath.Migrations
 {
     [DbContext(typeof(BackgroundServiceContext))]
-    [Migration("20250519185609_Initial")]
-    partial class Initial
+    [Migration("20251209202153_init")]
+    partial class init
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
